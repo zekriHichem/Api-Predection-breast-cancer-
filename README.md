@@ -102,12 +102,12 @@ Columns 5, 6 and 7 indicate respectively the two coordinates and the radius of a
   
 We will use deep learning to build models that can detect the class and severity of a mammary abnormality from a mammogram. We will make a diagnosis at two levels: first the class among seven predefined classes, then the severity (benign or malignant).
 <br>
-<img src = "sol.png" alt="this is image">
+<img src = "sol.PNG" alt="this is image">
 <br>
   
 After several tests, we arrived at the architecture below. A deeper architecture would bring the model to better know the data but could cause other problems (like the evanescence of the gradient). This model gives an accuracy of 54% after a training of 300 eras.
 <br>
-<img src = "archi.png" alt="this is image">
+<img src = "archi.PNG" alt="this is image">
 <br>
 The same architecture has been adopted for the second model (benign / malignant) by changing the last layer (an FC with two outputs). The accuracy is 91%.
 #### Transfer learning
@@ -120,7 +120,7 @@ For our part, we used a ResNet18 pre-trained on ImageNet. This model gives for o
   
 A user can connect through a web application or a mobile application to a Django Rest server via http requests (POST, GET, PUT, DELETE), which will handle the data entered by the user, to then return a response (JSON) to the user containing the result, as well as save the new data to the database
 <br>
-<img src = "archirest.png" alt="this is image">
+<img src = "archirest.PNG" alt="this is image">
 
 ## UML Diagrams
 ### sequence diagram
