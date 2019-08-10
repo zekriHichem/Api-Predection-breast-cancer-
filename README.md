@@ -43,7 +43,7 @@ We have worked in this part on a very famous dataset: the Breast Cancer Wisconsi
 </lu>
 
 ####  Analyse des données
-<img src = "stat.png" alt = "this is image">
+<img src = "stat.PNG" alt = "this is image">
   <br>
 A brief analysis of the dataset allowed us to understand the data, to see some links between the attributes and to make a certain number of hypotheses, but it is impossible to go further in the interpretation without a deep knowledge of the field or the intervention of a specialist. The above figure, for example, indicates that a smaller radius would herald a clever case, but we can not draw any formal conclusions from it.
 
